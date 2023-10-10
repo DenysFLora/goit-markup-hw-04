@@ -110,17 +110,21 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: left;
-padding-top: 24px; padding-bottom: 24px;
+padding-top: 24px; 
+padding-bottom: 24px;
+}
+
+.header-menu-link-studio {
 position: relative;
 color: #404bbf;
 transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-menu-link:hover, .header-menu-link:focus, {
-    color: #404BBF;
+color: #404BBF;
 }
 
-.header-menu-link:after {
+.header-menu-link-studio:after {
 content:'';
 position: absolute;
 left: 0;
@@ -169,9 +173,10 @@ background-image: linear-gradient(
     url(../images/people-office1_opt.jpg);
 background-repeat: no-repeat;
 background-position: center;
-background-size: contain;
 padding-bottom: 188px; 
 padding-top: 188px;
+max-width: 1440px;
+background-size: cover;
 }
 
 .opening-title {
